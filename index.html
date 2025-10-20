@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Painel de Saúde do Produto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head><br><br>
+<body>
+    <header>
+        <h1>Saúde e Performance em Produção</h1>
+    </header><br><br>
+    <div class="container">
+        <div class="metric-card" id="uptime">
+            <h2>Tempo de Atividade (Uptime)</h2>
+            <p class="value" data-metric="uptime">Carregando...</p>
+        </div>
+        <div class="metric-card" id="latency">
+            <h2>Latência Média (ms)</h2>
+            <p class="value" data-metric="latency">Carregando...</p>
+        </div>
+        <div class="metric-card" id="errors">
+            <h2>Taxa de Erros (5xx)</h2>
+            <p class="value" data-metric="errors">Carregando...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
